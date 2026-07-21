@@ -3,17 +3,17 @@
 # Manages Snowflake databases with optional replication, data retention,
 # tags, and comment metadata. Designed for enterprise multi-environment use.
 ##############################################################################
-##
-##terraform {
-##  required_version = ">= 1.5.0"
-##
-##  required_providers {
-##    snowflake = {
-##      source  = "Snowflake-Labs/snowflake"
-##      version = "~> 0.90"
-##    }
-##  }
-##}
+
+terraform {
+  required_version = ">= 1.5.0"
+
+  required_providers {
+    snowflake = {
+      source  = "Snowflake-Labs/snowflake"
+      version = "~> 0.90"
+    }
+  }
+}
 
 ##############################################################################
 # Database
